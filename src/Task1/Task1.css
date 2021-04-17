@@ -1,0 +1,76 @@
+/* Add-button */
+.Task_heading
+{
+    font-size: 22px;
+    font-weight: 800;
+    color: green;
+}
+.Add-button
+{
+    padding: 3px 40px;
+    background-color: #d31919;
+    border: 0;
+}
+.fa:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+.header_title
+{
+    padding: 20px;
+    text-align: center;
+}
+.form_wrap
+{
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+}
+
+.form_table_container
+{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Record_notFound
+{
+    text-align: center;
+}
+.Record_notFound p{
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+@media(max-width:766px)
+{
+    .form_table_container .col-md-3
+    {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .form_table_container input
+    {
+      
+        width: 100%;
+    }
+    .form_wrap
+{
+  margin: 10px;
+}
+}
+
+
+
+
+
+
+
+
+/* Add-button */
